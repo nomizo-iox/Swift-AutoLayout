@@ -22,13 +22,39 @@
                                     <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To AutoLayout" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJT-6K-KE1">
+                                <rect key="frame" x="169" y="737" width="186" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👍🏾" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Rh-he-FhR">
+                                <rect key="frame" x="20" y="722" width="34" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🤔" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziC-xS-GvO">
+                                <rect key="frame" x="150" y="54" width="75" height="84"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="SJT-6K-KE1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="17y-dq-bPR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SJT-6K-KE1" secondAttribute="trailing" constant="20" id="3eD-iT-h7I"/>
                             <constraint firstItem="IHo-ym-nNO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3ti-iq-MiL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0Rh-he-FhR" secondAttribute="bottom" constant="20" id="4xL-Ge-Muk"/>
                             <constraint firstItem="IHo-ym-nNO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7WS-Jz-GxD"/>
+                            <constraint firstItem="ziC-xS-GvO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Bnf-ts-cJu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SJT-6K-KE1" secondAttribute="bottom" constant="20" id="Lgl-cE-2P5"/>
+                            <constraint firstItem="0Rh-he-FhR" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TWW-j7-zQq"/>
                             <constraint firstItem="IHo-ym-nNO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZFe-aw-s2G"/>
                             <constraint firstItem="IHo-ym-nNO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="a2C-me-sRw"/>
+                            <constraint firstItem="ziC-xS-GvO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dnS-D0-YLs"/>
+                            <constraint firstItem="SJT-6K-KE1" firstAttribute="leading" secondItem="0Rh-he-FhR" secondAttribute="trailing" constant="115" id="xTO-UR-gOA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
